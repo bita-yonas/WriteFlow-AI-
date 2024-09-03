@@ -62,7 +62,7 @@ export const NewDocument = () => {
         <button
           onClick={() =>
             createNewDoc(
-              "Wizardly Template",
+              "Story Template",
               `
               [Exposition] 
 
@@ -89,7 +89,7 @@ export const NewDocument = () => {
           </Card>
         </button>
       ),
-      footer: "Wizardly Template",
+      footer: "Story Template",
     },
     {
       component: (
