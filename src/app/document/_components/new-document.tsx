@@ -1,3 +1,4 @@
+
 "use client";
 
 import {
@@ -34,20 +35,6 @@ export const NewDocument = () => {
   };
 
   const TemplateMap = [
-    {
-      component: (
-        <button onClick={() => createNewDoc()}>
-          <Card className="w-[180px] lg:w-[200px] hover:border hover:border-blue-500 hover:cursor-pointer">
-            <CardHeader></CardHeader>
-            <CardContent className="flex justify-center mx-auto">
-              <Plus size={80} />
-            </CardContent>
-            <CardFooter></CardFooter>
-          </Card>
-        </button>
-      ),
-      footer: "Blank Document",
-    },
     {
       component: (
         <button
