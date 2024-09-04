@@ -45,7 +45,7 @@ export const NewDocument = () => {
             )
           }
         >
-          <Card className="w-[180px] lg:w-[200px] rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 text-white shadow-xl hover:shadow-2xl hover:bg-gradient-to-r hover:from-gray-700 hover:to-gray-600 border border-gray-600 hover:border-gray-400 transition-all duration-300">
+          <Card className="w-[180px] lg:w-[200px] rounded-xl bg-gray-700 text-white shadow-xl hover:shadow-2xl hover:bg-gray-600 border border-gray-600 hover:border-gray-400 transition-all duration-300">
             <CardHeader></CardHeader>
             <CardContent className="flex justify-center mx-auto">
               <Plus size={80} className="text-white" />
@@ -79,7 +79,7 @@ export const NewDocument = () => {
             )
           }
         >
-          <Card className="w-[180px] lg:w-[200px] rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 text-white shadow-xl hover:shadow-2xl hover:bg-gradient-to-r hover:from-gray-700 hover:to-gray-600 border border-gray-600 hover:border-gray-400 transition-all duration-300">
+          <Card className="w-[180px] lg:w-[200px] rounded-xl bg-gray-700 text-white shadow-xl hover:shadow-2xl hover:bg-gray-600 border border-gray-600 hover:border-gray-400 transition-all duration-300">
             <CardHeader></CardHeader>
             <CardContent className="flex justify-center mx-auto">
               <Plus size={80} className="text-white" />
@@ -113,7 +113,7 @@ export const NewDocument = () => {
             )
           }
         >
-          <Card className="w-[180px] lg:w-[200px] rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 text-white shadow-xl hover:shadow-2xl hover:bg-gradient-to-r hover:from-gray-700 hover:to-gray-600 border border-gray-600 hover:border-gray-400 transition-all duration-300">
+          <Card className="w-[180px] lg:w-[200px] rounded-xl bg-gray-700 text-white shadow-xl hover:shadow-2xl hover:bg-gray-600 border border-gray-600 hover:border-gray-400 transition-all duration-300">
             <CardHeader></CardHeader>
             <CardContent className="flex justify-center mx-auto">
               <Plus size={80} className="text-white" />
@@ -127,14 +127,14 @@ export const NewDocument = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-indigo-900 to-black flex flex-col items-center px-4 pt-4">
+    <div className="bg-white flex flex-col items-center px-4 pt-4">
       <div className="flex flex-col w-full max-w-5xl mx-auto">
-        <h3 className="text-white text-sm text-center mb-4">Start a new document</h3>
+        <h3 className="text-gray-900 text-sm text-center mb-4">Start a new document</h3> {/* Changed to text-gray-900 */}
         <div className="flex flex-col sm:flex-row justify-center space-x-0 sm:space-x-4 space-y-4 sm:space-y-0">
           {TemplateMap.map((template) => (
             <div key={template.footer} className="flex flex-col items-center">
               {template.component}
-              <p className="text-sm mt-2 text-center text-white">{template.footer}</p>
+              <p className="text-sm mt-2 text-center text-gray-900">{template.footer}</p> {/* Changed to text-gray-900 */}
             </div>
           ))}
         </div>
