@@ -31,8 +31,4 @@
 - **Collaboration Features**: Add real-time collaboration for multiple users to work on the same document.
 - **Grammar Checker**: Incorporate a more advanced grammar-checking feature.
 
-## 🎨 Cool Visuals
-
-![WriteFlow AI Screenshot](https://via.placeholder.com/800x400?text=App+Screenshot)
-
 Unleash your writing potential with **WriteFlow AI**. Every word matters, and with WriteFlow AI, you can make them count! 🎓✨
